@@ -22,9 +22,10 @@ discord: # Log also reports to discord?
       icon_url: null
 
 messages:
-  on_report: "Your report has been sent to the staff."
-  cant_report: "You can't report staff members." # Permission to bypass reports: everreport.bypass
-  error_console: "You cannot execute this command in the console."
+  on_report: "&aYour report has been sent to the staff."
+  cant_report: "&cYou can't report staff members." # Permission to bypass reports: everreport.bypass
+  error_console: "&cYou cannot execute this command in the console."
+  error_not_online: "&cThis player is not online."
   report_recieved: # Displayed to players with permissions: everreport.alerts
     - "A new report has been received."
     - "Executor: {executor}"

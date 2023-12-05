@@ -1,0 +1,31 @@
+# EverReport - By Rodrigo R. - v.1.0.0
+
+discord: # Log also reports to discord?
+  allow: false
+  bot_token: "..." # Get it from: https://discord.com/developers
+  guild_id: "..." # Your server ID. More info: https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
+  channel_id: "..." # The logs channel id
+  embed: # The embed to send
+    title: "New Report"
+    color: "red" # All colors available on java.awt.Color. See: https://docs.oracle.com/javase/8/docs/api/java/awt/Color.html
+    author:
+      name: "EverReport"
+      url: null # Leave it as null to not display
+      icon_url: null # Leave it as null to not display
+    description:
+      - "A new report has been received."
+      - "Executor: {executor}"
+      - "Reported: {reported}"
+      - "Reason: {reason}"
+    footer:
+      text: "EverReport"
+      icon_url: null
+
+messages:
+  on_report: "Your report has been sent to the staff."
+  cant_report: "You can't report staff members." # Permission to bypass reports: everreport.bypass
+  report_recieved: # Displayed to players with permissions: everreport.alerts
+    - "A new report has been received."
+    - "Executor: {executor}"
+    - "Reported: {reported}"
+    - "Reason: {reason}"

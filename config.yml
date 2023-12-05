@@ -18,12 +18,13 @@ discord: # Log also reports to discord?
       - "Reported: {reported}"
       - "Reason: {reason}"
     footer:
-      text: "EverReport"
+      text: "Powered by EverReport - Version 1.0.0"
       icon_url: null
 
 messages:
   on_report: "Your report has been sent to the staff."
   cant_report: "You can't report staff members." # Permission to bypass reports: everreport.bypass
+  error_console: "You cannot execute this command in the console."
   report_recieved: # Displayed to players with permissions: everreport.alerts
     - "A new report has been received."
     - "Executor: {executor}"

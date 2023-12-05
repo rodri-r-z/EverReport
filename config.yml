@@ -26,6 +26,8 @@ messages:
   cant_report: "&cYou can't report staff members." # Permission to bypass reports: everreport.bypass
   error_console: "&cYou cannot execute this command in the console."
   error_not_online: "&cThis player is not online."
+  error_report_self: "&cYou can't report yourself."
+  usage: "&cUsage: /report <player> <reason>"
   report_recieved: # Displayed to players with permissions: everreport.alerts
     - "A new report has been received."
     - "Executor: {executor}"

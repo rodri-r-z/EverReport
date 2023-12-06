@@ -1,4 +1,4 @@
-# EverReport - By Rodrigo R. - v.1.0.0
+# EverReport - By Rodrigo R. - v.1.1
 
 discord: # Log also reports to discord?
   allow: false
@@ -17,6 +17,7 @@ discord: # Log also reports to discord?
       - "Executor: {executor}"
       - "Reported: {reported}"
       - "Reason: {reason}"
+      - "Server: {server}" # Will ne replaced with the world name if the server is Bukkit/Spigot/Paper
     footer:
       text: "Powered by EverReport - Version 1.0.0"
       icon_url: null

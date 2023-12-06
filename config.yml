@@ -34,3 +34,4 @@ messages:
     - "Executor: {executor}"
     - "Reported: {reported}"
     - "Reason: {reason}"
+    - "Server: {server}"
